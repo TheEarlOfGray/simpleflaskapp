@@ -4,7 +4,7 @@ pipeline {
         DOCKER_LOGIN=credentials('DOCKER_LOGIN')
     }
     stages {
-        stage('Build') {
+        stage('Toodles') {
             steps {
                 sh 'sudo docker compose build'
                 sh 'sudo docker login -u ${DOCKER_LOGIN_USR} -p ${DOCKER_LOGIN_PSW}'

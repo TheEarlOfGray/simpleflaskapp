@@ -10,7 +10,7 @@ def home():
 
 @app.route('/about')
 def about():
-    return '<h1>Other.</h1>'
+    return '<h1>Here is some text</h1>'
     
 @app.route('/contact')
 def contact():
